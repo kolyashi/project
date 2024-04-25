@@ -1,0 +1,59 @@
+.list {
+    position: relative;
+    list-style: none;
+    width: 500px;
+    box-shadow: 2px 2px 10px 0 green;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 630px;
+    background: green;
+}
+
+
+
+.link_btn2 {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width:1280px)  {
+    .list {
+        position: relative;
+        list-style: none;
+        width: 300px;
+        box-shadow: 2px 2px 10px 0 green;
+        border-radius: 5px;
+        padding: 30px;
+        font-size: 25px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        margin-left: 230px;
+        background: green;
+    }
+}
+
+
+@media screen and (max-width: 768px)  {
+    .list {
+        position: relative;
+        list-style: none;
+        width: 300px;
+        box-shadow: 2px 2px 10px 0 green;
+        border-radius: 5px;
+        padding: 30px;
+        font-size: 25px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        margin-left: -30px;
+        background: green;
+    }
+}
+
+

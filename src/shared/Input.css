@@ -1,0 +1,42 @@
+.sprint_name {
+    margin-bottom: 5px;
+    border: 3px solid red;
+    border-radius: 6px;
+}
+
+.start_date_name {
+    margin-bottom: 5px;
+    border: 3px solid red;
+    border-radius: 6px;
+}
+
+.end_date_name {
+    margin-bottom: 5px;
+    border: 3px solid red;
+    border-radius: 6px;
+}
+
+
+.input1 {
+    width: 13%;
+    outline: none;
+    border: 3px solid red;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width:1280px) {
+    .input1 {
+        width: 20%;
+        outline: none;
+        border: 3px solid red;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 5px;
+        position: relative;
+        margin-left: -120px;
+    }
+}

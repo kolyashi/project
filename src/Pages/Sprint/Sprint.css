@@ -1,0 +1,114 @@
+
+.form_modal {
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+    padding: 28vh;
+    
+}
+
+
+.ReactModal__Overlay {
+    width: 50%;
+    margin-left: 500px;
+}
+
+.link_btn {
+    text-decoration: none;
+    color: black;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 110px;
+}
+
+h1 {
+    margin-left: 90px;
+}
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 60px;
+    border: solid red 3px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+
+.info > h2 {
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width:768px)  {
+    .ReactModal__Overlay {
+        width: 600px;
+        height: 700px;
+        margin-left: 100px;
+        margin-top: 20px;
+        
+    }
+}
+
+@media screen and (max-width:1280px)  {
+    .ReactModal__Overlay {
+        width: 600px;
+        height: 700px;
+        margin-left: -45px;
+        margin-top: 20px;
+        padding: 600px 70px -200px 600px;
+    }
+
+    .start_sprint {
+        left: 200px;
+        bottom: 20px;
+
+    }
+
+    .close_modal {
+        bottom: 20px;
+        right: 320px;
+    }
+    
+
+    .form_modal {
+        margin-top: -90px;
+    }
+
+    .header {
+        margin-left: -60px;
+    }
+   
+
+    .sprint_name {
+        width: 300px;
+        margin-left: -190px;
+    }
+    .goal_name {
+        width: 300px;
+        margin-left: -190px;
+    } 
+
+    .start_date_name {
+        width: 300px;
+        margin-left: -190px;
+    }
+
+    .end_date_name {
+        width: 300px;
+        margin-left: -190px;
+    }
+    .duration_name {
+        width: 310px;
+        margin-left: -190px;
+    }
+}
+

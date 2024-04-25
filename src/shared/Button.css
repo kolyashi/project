@@ -1,0 +1,93 @@
+.open_modal {
+    background-color:aqua;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.remove_btn {
+    background-color:aqua;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-left: 185px;
+    width: 100px;
+}
+
+.close_modal {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 100px;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 10px;
+    
+
+}
+
+.start_sprint {
+    position: absolute;
+    right: 305px;
+    bottom: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.main_page {
+    background-color:aqua;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 113px;
+    width: 90px;
+    text-decoration: none;
+}
+
+.add {
+    right: 305px;
+    bottom: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: aquamarine;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+.main_page_from_home {
+    background-color:aquamarine;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 803px;
+    width: 90px;
+    text-decoration: none;
+}
+
+.all_delete {
+    background:aqua ;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+.home_page {
+    background: aqua;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
